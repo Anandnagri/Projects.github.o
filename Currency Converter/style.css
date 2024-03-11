@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 30vh;
+  width: 25vw;
+}
+
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+form input,
+select,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+form input {
+  border: 1px solid lightgray;
+  height: 3rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.selectCountry img {
+  max-width: 2rem;
+}
+
+.selectCountry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  width: 6rem;
+}
+
+.selectCountry select{
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg{
+  margin: 2rem 0;
+}
+
+form button{
+  height: 3rem;
+  font-size: 1.25rem;
+  background-color: rgba(165, 17, 165, 0.807);
+  color: white;
+  cursor: pointer;
+}
